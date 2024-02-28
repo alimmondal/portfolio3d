@@ -16,14 +16,15 @@ const Navbar = () => {
     gap: 1em;
   `;
   const Logo = styled.img`
-    width: 150px;
-    height: 100px;
+    height: 50px;
   `;
   const Icons = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
   `;
+
   const List = styled.ul`
     display: flex;
     gap: 1em;
@@ -31,8 +32,19 @@ const Navbar = () => {
   const ListItem = styled.li`
     list-style: none;
   `;
-  const Icon = styled.img``;
-  const Button = styled.button``;
+  const Icon = styled.img`
+    width: 20px;
+    cursor: pointer;
+  `;
+  const Button = styled.button`
+    width: 100px;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  `;
 
   return (
     <Section>

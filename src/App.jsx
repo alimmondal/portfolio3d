@@ -1,8 +1,8 @@
+import styled from "styled-components";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Works from "./components/Works";
 import Who from "./components/who";
-import styled from "styled-components";
 
 const App = () => {
   const Container = styled.div`

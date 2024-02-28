@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const who = () => {
+const Who = () => {
   const Section = styled.div`
     height: 100vh;
     scroll-snap-align: center;
@@ -8,4 +8,4 @@ const who = () => {
   return <Section>who</Section>;
 };
 
-export default who;
+export default Who;
